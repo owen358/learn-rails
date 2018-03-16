@@ -33,3 +33,8 @@ end
 group :production do
   gem 'pg'
 end
+
+group :test do
+  gem 'minitest-spec-rails'
+  gem 'minitest-rails-capybara'
+end
